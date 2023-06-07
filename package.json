@@ -1,0 +1,23 @@
+{
+  "name": "microfrontends-with-webpack",
+  "version": "1.0.0",
+  "workspaces": ["packages/*"],
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amsourav/microfrontends-with-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amsourav/microfrontends-with-webpack/issues"
+  },
+  "homepage": "https://github.com/amsourav/microfrontends-with-webpack#readme"
+}
