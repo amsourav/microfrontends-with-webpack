@@ -1,1 +1,2 @@
-import 'products/ProductsIndex'
+import "products/ProductsIndex";
+import "cart/CartIndex";
