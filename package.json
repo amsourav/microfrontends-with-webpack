@@ -1,12 +1,15 @@
 {
   "name": "microfrontends-with-webpack",
   "version": "1.0.0",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "turbo start",
+    "build": "turbo build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/amsourav/microfrontends-with-webpack/issues"
   },
-  "homepage": "https://github.com/amsourav/microfrontends-with-webpack#readme"
+  "homepage": "https://github.com/amsourav/microfrontends-with-webpack#readme",
+  "devDependencies": {
+    "turbo": "^1.10.2"
+  }
 }
